@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculo_imc.MainPage">
+
+    <StackLayout>
+        
+        <Entry x:Name="peso" Placeholder="Peso:"/>
+
+        <Entry x:Name="altura" Placeholder="Altura:"/>
+
+        <Button Text="Calcular" Clicked="Button_Clicked"/>
+
+        <Label>
+            IMC - CLASSIFICAÇÃO
+        </Label>
+        <Label>
+            MENOR QUE 18,5	ABAIXO-PESO
+        </Label>
+        <Label>
+            ENTRE 18,5 E 24,9 NORMAL
+        </Label>
+        <Label>
+            ENTRE 25,0 E 29,9 OBESIDADE I
+        </Label>
+        <Label>
+            ENTRE 30,0 E 39,9 OBESIDADE II
+        </Label>
+        <Label>
+            MAIOR QUE 40,0 OBESIDADE MÓRBIDA
+        </Label>
+    </StackLayout>
+
+</ContentPage>
